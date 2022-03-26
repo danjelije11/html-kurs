@@ -1,0 +1,61 @@
+<!doctype html>
+<htmal>
+<head>
+<style>
+.kvadrat {
+	border: 2px solid black
+	
+	
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="kvadrat">
+Ovo  je naslovni header
+
+</div>
+
+<head>
+<style>
+
+.kvadrat {
+	
+	display: 2px solid black;
+	width:;
+	height:;
+	
+}
+
+	
+	
+}
+</head>
+</style>
+
+<head>
+<style>
+
+.wrapper {
+	display: flex;
+	width:200px;
+	height:450px;
+	}
+<body>
+
+<div class="wrapper">
+<div class="wrapper crvena"></div>
+<div class="wrapper plava"></div>
+
+
+</div>
+
+</style>
+</head>
+
+
+
+
+</htmal>
