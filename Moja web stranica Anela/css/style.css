@@ -1,0 +1,21 @@
+.logo{
+
+    background-color: yellow;
+    flex-grow: 1;
+}
+.ikonice{
+
+    background-color: rgb(191, 191, 240);
+    flex-grow: 1;
+    text-align: right;
+}
+
+.headerGornji{
+    display: flex;
+    
+
+
+}
+
+
+
