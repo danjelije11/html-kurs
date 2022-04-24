@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .glavniDiv{
     margin: 0px auto;
     width: 85%;
@@ -119,6 +127,75 @@
 .tehnologija{
     flex-grow: 1;
 }
+
+#usluge{
+    color: white;
+    height: 60vh;
+    background-color: cornflowerblue;
+    background: url(/assets/usluge/usluge.jpg);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}
+#usluge h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    padding-top: 40px;
+
+}
+
+
+.usluge-row{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+
+
+
+
+}
+
+.usluge-row>div{
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+
+
+}
+ .usluge-row>div>img{
+
+     width: 300px;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+
+ }
+
+ .usluge-row>div>p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.801);
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.proizvod{
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: 5px;
+}
+
 
 
 
