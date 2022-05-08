@@ -199,3 +199,85 @@ body{
 
 
 
+.matrica{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "a b c"
+      "d b e"
+      "f f g";
+      margin-bottom: 20px;
+  }
+  
+  .a { grid-area: a; }
+  
+  .b { grid-area: b; }
+  
+  .c { grid-area: c; }
+  
+  .d { grid-area: d; }
+  
+  .e { grid-area: e; }
+  
+  .f { grid-area: f;
+    overflow: hidden !important;
+}
+
+  .f img{
+    height: 450px !important;
+    
+
+  }
+  .g { grid-area: g; }
+  
+  .proizvodmatrica{
+      height: 100%;
+      width: 100%;
+      background-color: cornflowerblue;
+  }
+  .proizvodmatrica img{
+    width: 100%;
+    height: 100%;
+
+  }
+  #gdjesenalazimo{
+    
+      display: grid; 
+      grid-template-columns: 0.6fr 1.4fr; 
+      grid-template-rows: 1fr; 
+      gap: 0px 12px; 
+      grid-template-areas: 
+        "podaci mapa"; 
+        margin-bottom: 20px;
+  }
+
+  .podaci>div:hover{
+     background-color: aliceblue;
+  }
+
+  .info{
+    
+      line-height: 8px;
+      padding: 5px;
+  }
+
+  .podrška{
+    line-height: 8px;
+    padding: 5px;
+  }
+
+   .mapa{
+
+    background-color: aliceblue;
+       
+   }
+   #kontakt{
+
+    height: 400px;
+    padding: 25%;
+   }
+ 
+  
